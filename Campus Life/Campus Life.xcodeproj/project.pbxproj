@@ -19,7 +19,6 @@
 		4D9E83FC29F5219400A2E502 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FB29F5219400A2E502 /* TracksViewController.swift */; };
 		4D9E83FE29F5219800A2E502 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FD29F5219800A2E502 /* AlbumsViewController.swift */; };
 		4D9E840029F5219E00A2E502 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FF29F5219E00A2E502 /* DetailViewController.swift */; };
-		4DC31D8D29F5EDED00CB70BB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4DC31D8C29F5EDED00CB70BB /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC31D8D29F5EDED00CB70BB /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +110,6 @@
 			);
 			name = "Campus Life";
 			packageProductDependencies = (
-				4DC31D8C29F5EDED00CB70BB /* Nuke */,
 			);
 			productName = "Campus Life";
 			productReference = 0BB9E76529E4FAAE00DD1A5C /* Campus Life.app */;
@@ -143,7 +140,6 @@
 			);
 			mainGroup = 0BB9E75C29E4FAAE00DD1A5C;
 			packageReferences = (
-				4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */,
 			);
 			productRefGroup = 0BB9E76629E4FAAE00DD1A5C /* Products */;
 			projectDirPath = "";
@@ -335,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,25 +396,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kean/Nuke";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4DC31D8C29F5EDED00CB70BB /* Nuke */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = Nuke;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BB9E75D29E4FAAE00DD1A5C /* Project object */;
 }
