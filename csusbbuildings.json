@@ -1,6 +1,5 @@
-
 {
-    "resultCount":7,
+    "resultCount":50,
     "results": [
    { "artistName":"3 floors", "collectionName":"The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.", "trackName":"College of Education", 
    "previewUrl":"https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg","artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
@@ -12,12 +11,14 @@
    "previewUrl":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/CSUSB-NewsSlide-WildSong_Library_2.jpg?h=4eaa70d8&itok=q4X2xYl6","artworkUrl100":"https://www.csusb.edu/sites/default/files/upload/file/NewsSlide_PfauLibrary_04Sept2020.jpg","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
    { "artistName":"5 floors", "collectionName":"", "trackName":"University Hall", 
    "previewUrl":"https://www.csusb.edu/sites/default/files/upload/image/uhall.png","artworkUrl100":"https://www.csusb.edu/sites/default/files/upload/image/uhall.png","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
+   { "artistName":"3 floors", "collectionName":"The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.", "trackName":"College of Education", 
+   "previewUrl":"https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg","artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
    { "artistName":"4 floors", "collectionName":"They engage in cutting edge physics and astronomy research with CSUSB faculty members in areas such as ferroelectrics and piezoelectrics, complex fluid dynamics, and comet and asteroid studies. Several undergraduate physics majors have presented their research at scientific meetings around the country. Many students receive paid summer internships, gaining valuable experience working for local companies. Our strong commitment to undergraduate learning helps set us apart from many other physics departments that tend to focus more on graduate students.", "trackName":"Physical Sciences", 
    "previewUrl":"https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS", "artworkUrl100":"https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"},
    { "artistName":"3 floors", "collectionName":"Named after the former President and CEO of Stater Brothers Markets, Jack Brown hall is home to CSUSB College of Business and Public Administration. This college has been named as one of the most innovative business schools by the European CEO magazine", "trackName":"Jack Brown Hall", 
-   "previewUrl":"https://www.csusb.edu/sites/default/files/jackbrownhall.jpg", "artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/interior_slideshow/public/upload/image/CSUSB_JHB_SchoolOfBusiness.jpg?itok=NcihTxAt"}
-    ]
-}
-   
+   "previewUrl":"https://www.csusb.edu/sites/default/files/jackbrownhall.jpg", "artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/interior_slideshow/public/upload/image/CSUSB_JHB_SchoolOfBusiness.jpg?itok=NcihTxAt","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}
+  ]
+   }
+
    
    
