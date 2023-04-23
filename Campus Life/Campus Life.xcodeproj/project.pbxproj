@@ -19,6 +19,7 @@
 		4D9E83FC29F5219400A2E502 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FB29F5219400A2E502 /* TracksViewController.swift */; };
 		4D9E83FE29F5219800A2E502 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FD29F5219800A2E502 /* AlbumsViewController.swift */; };
 		4D9E840029F5219E00A2E502 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FF29F5219E00A2E502 /* DetailViewController.swift */; };
+		4DC31D8D29F5EDED00CB70BB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4DC31D8C29F5EDED00CB70BB /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC31D8D29F5EDED00CB70BB /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +111,9 @@
 			dependencies = (
 			);
 			name = "Campus Life";
+			packageProductDependencies = (
+				4DC31D8C29F5EDED00CB70BB /* Nuke */,
+			);
 			productName = "Campus Life";
 			productReference = 0BB9E76529E4FAAE00DD1A5C /* Campus Life.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 0BB9E75C29E4FAAE00DD1A5C;
+			packageReferences = (
+				4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 0BB9E76629E4FAAE00DD1A5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29764YH34R;
+				DEVELOPMENT_TEAM = XKY3NFH885;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Campus Life/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AMsapp.Campus-Life";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AMsapp.Campus-Life1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29764YH34R;
+				DEVELOPMENT_TEAM = XKY3NFH885;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Campus Life/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -360,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AMsapp.Campus-Life";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AMsapp.Campus-Life1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -390,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DC31D8C29F5EDED00CB70BB /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DC31D8B29F5EDED00CB70BB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BB9E75D29E4FAAE00DD1A5C /* Project object */;
 }
