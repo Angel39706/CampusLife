@@ -1,5 +1,5 @@
 {
-    "resultCount": 2,
+    "resultCount": 3,
     "results": [
         {
             "floorNum": "2 floors",
@@ -14,6 +14,13 @@
             "buildName": "SMSU North",
             "previewUrl": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/NewsSlide_SMSU_ToppingOut_Ceremony_27Feb2020_1.jpg?h=1543e9c9&itok=GJ-OvJDH",
             "artworkUrl100": "https://pbs.twimg.com/media/FMO_Bd2VkAArgKb.jpg:large"
+        },
+        {
+            "floorNum": "1 floor",
+            "Description": "Come to an Einstein Bros. Bagels near you, where we believe in the bagel! Stop by for your daily fresh-baked bagel and coffee to set the day right. We're also serving up Classic bagels like Sesame, Onion and Everything along with our Signature bagel flavors like French Toast and Asiago. And if over-the-top flavor is what you seek, check out our Gourmet Bagels like Cheesy Hashbrown, Jalapeño Cheddar, and Six-Cheese Gourmet. Sneak away for an afternoon escape with unique lunchtime selections like our Tasty Turkey, Ham and Swiss or Nova Lox. And when it comes to morning meetings, nothing sets the workday mood better than Einstein Bros. Bagels All-Day Breakfast catering or Lunch Classics catering. From a simple bagel and shmear to large group catering in San Bernardino, our bagels are baked fresh every four hours with the finest ingredients for the most inspiring flavors. CSU San Bernardino Einstein Bros. Bagels is nearby and ready to make your day better with a bagel.",
+            "buildName": "Einstein Bros. Bagels",
+            "previewUrl": "https://locations.einsteinbros.com/permanent-b0b701/assets/images/einstein_logo.13c66612.png",
+            "artworkUrl100": "https://pbs.twimg.com/media/FcJfmRlWYAE3IYR.jpg:large"
         }
     ]
 }
