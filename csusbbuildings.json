@@ -1,24 +1,61 @@
 {
-    "resultCount":50,
+    "resultCount": 50,
     "results": [
-   { "artistName":"3 floors", "collectionName":"The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.", "trackName":"College of Education", 
-   "previewUrl":"https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg","artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
-   { "artistName":"3 floors", "collectionName":"CGI is the administrative home for the College of Extended and Global Education (CEGE) and provides services to all international students and scholars, including international degree-seeking students, English language learners; students participating in education abroad opportunities; Open University students; students in Extension and Special Sessions program, as well as other professional development programs.", "trackName":"Center for Global Innovation", 
-   "previewUrl":"https://www.csusb.edu/sites/default/files/CGI_0B4A4725_0.jpg","artworkUrl100":"https://lpa-design-studios.imgix.net/content/heros/CSUSB-Center-for-Global-Innovation13.jpg?auto=format&crop=focalpoint&domain=lpa-design-studios.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=1121&ixlib=php-3.3.0&q=60&w=1920","releaseDate":"2021-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"},
-   { "artistName":"4 floors", "collectionName":"The College of Social and Behavioral Sciences provides local, national, and international leadership through its educational, scholarship, and community partnership programs. The College is committed to enhancing quality of life in the Inland Southern California and the global community at large through its varied educational and research activities.", "trackName":"Social & Behavioral Sciences", 
-   "previewUrl":"https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Front_View.jpg&w=900&h=508&r=1","artworkUrl100":"https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Sky_view.jpg&w=900&h=508&r=1","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"},
-   { "artistName":"4 floors", "collectionName":"The John M. Pfau Library is the library on the campus of California State University, San Bernardino in San Bernardino, California, United States. It is named after the founding president of the university, Dr. John Martin Pfau. It has two sections totaling 294,000 square feet.", "trackName":"John M. Pfau Library", 
-   "previewUrl":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/CSUSB-NewsSlide-WildSong_Library_2.jpg?h=4eaa70d8&itok=q4X2xYl6","artworkUrl100":"https://www.csusb.edu/sites/default/files/upload/file/NewsSlide_PfauLibrary_04Sept2020.jpg","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
-   { "artistName":"5 floors", "collectionName":"", "trackName":"University Hall", 
-   "previewUrl":"https://www.csusb.edu/sites/default/files/upload/image/uhall.png","artworkUrl100":"https://www.csusb.edu/sites/default/files/upload/image/uhall.png","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
-   { "artistName":"3 floors", "collectionName":"The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.", "trackName":"College of Education", 
-   "previewUrl":"https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg","artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
-   { "artistName":"4 floors", "collectionName":"They engage in cutting edge physics and astronomy research with CSUSB faculty members in areas such as ferroelectrics and piezoelectrics, complex fluid dynamics, and comet and asteroid studies. Several undergraduate physics majors have presented their research at scientific meetings around the country. Many students receive paid summer internships, gaining valuable experience working for local companies. Our strong commitment to undergraduate learning helps set us apart from many other physics departments that tend to focus more on graduate students.", "trackName":"Physical Sciences", 
-   "previewUrl":"https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS", "artworkUrl100":"https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"},
-   { "artistName":"3 floors", "collectionName":"Named after the former President and CEO of Stater Brothers Markets, Jack Brown hall is home to CSUSB College of Business and Public Administration. This college has been named as one of the most innovative business schools by the European CEO magazine", "trackName":"Jack Brown Hall", 
-   "previewUrl":"https://www.csusb.edu/sites/default/files/jackbrownhall.jpg", "artworkUrl100":"https://www.csusb.edu/sites/default/files/styles/interior_slideshow/public/upload/image/CSUSB_JHB_SchoolOfBusiness.jpg?itok=NcihTxAt","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}
-  ]
-   }
-
-   
-   
+        {
+            "floorNum": "3 floors",
+            "Description": "The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.",
+            "buildName": "College of Education",
+            "previewUrl": "https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg",
+            "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU"
+        },
+        {
+            "floorNum": "3 floors",
+            "Description": "CGI is the administrative home for the College of Extended and Global Education (CEGE) and provides services to all international students and scholars, including international degree-seeking students, English language learners; students participating in education abroad opportunities; Open University students; students in Extension and Special Sessions program, as well as other professional development programs.",
+            "buildName": "Center for Global Innovation",
+            "previewUrl": "https://www.csusb.edu/sites/default/files/CGI_0B4A4725_0.jpg",
+            "artworkUrl100": "https://lpa-design-studios.imgix.net/content/heros/CSUSB-Center-for-Global-Innovation13.jpg?auto=format&crop=focalpoint&domain=lpa-design-studios.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=1121&ixlib=php-3.3.0&q=60&w=1920"
+        },
+        {
+            "floorNum": "4 floors",
+            "Description": "The College of Social and Behavioral Sciences provides local, national, and international leadership through its educational, scholarship, and community partnership programs. The College is committed to enhancing quality of life in the Inland Southern California and the global community at large through its varied educational and research activities.",
+            "buildName": "Social & Behavioral Sciences",
+            "previewUrl": "https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Front_View.jpg&w=900&h=508&r=1",
+            "artworkUrl100": "https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Sky_view.jpg&w=900&h=508&r=1"
+        },
+        {
+            "floorNum": "4 floors",
+            "Description": "The John M. Pfau Library is the library on the campus of California State University, San Bernardino in San Bernardino, California, United States. It is named after the founding president of the university, Dr. John Martin Pfau. It has two sections totaling 294,000 square feet.",
+            "buildName": "John M. Pfau Library",
+            "previewUrl": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/CSUSB-NewsSlide-WildSong_Library_2.jpg?h=4eaa70d8&itok=q4X2xYl6",
+            "artworkUrl100": "https://www.csusb.edu/sites/default/files/upload/file/NewsSlide_PfauLibrary_04Sept2020.jpg"
+        },
+        {
+            "floorNum": "5 floors",
+            "Description": "",
+            "buildName": "University Hall",
+            "previewUrl": "https://www.csusb.edu/sites/default/files/upload/image/uhall.png",
+            "artworkUrl100": "https://www.csusb.edu/sites/default/files/upload/image/uhall.png"
+        },
+        {
+            "floorNum": "3 floors",
+            "Description": "The College of Education at California State University, San Bernardino is home to an extensive teacher preparation program, including six different teaching credentials, sixteen Masters programs and a doctoral program in educational leadership. Our faculty is committed to providing the best quality training for those seeking a professional career in education.",
+            "buildName": "College of Education",
+            "previewUrl": "https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg",
+            "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU"
+        },
+        {
+            "floorNum": "4 floors",
+            "Description": "They engage in cutting edge physics and astronomy research with CSUSB faculty members in areas such as ferroelectrics and piezoelectrics, complex fluid dynamics, and comet and asteroid studies. Several undergraduate physics majors have presented their research at scientific meetings around the country. Many students receive paid summer internships, gaining valuable experience working for local companies. Our strong commitment to undergraduate learning helps set us apart from many other physics departments that tend to focus more on graduate students.",
+            "buildName": "Physical Sciences",
+            "previewUrl": "https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS",
+            "artworkUrl100": "https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS"
+        },
+        {
+            "floorNum": "3 floors",
+            "Description": "Named after the former President and CEO of Stater Brothers Markets, Jack Brown hall is home to CSUSB College of Business and Public Administration. This college has been named as one of the most innovative business schools by the European CEO magazine",
+            "buildName": "Jack Brown Hall",
+            "previewUrl": "https://www.csusb.edu/sites/default/files/jackbrownhall.jpg",
+            "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/interior_slideshow/public/upload/image/CSUSB_JHB_SchoolOfBusiness.jpg?itok=NcihTxAt"
+        }
+    ]
+}

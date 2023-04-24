@@ -1,11 +1,19 @@
-
 {
-    "resultCount":2,
+    "resultCount": 2,
     "results": [
-   { "artistName":"2 floors", "collectionName":"CSUSB’s newest campus residential and dining experiences – Coyote Village and Coyote Commons ", "trackName":"Coyote Commons", 
-   "previewUrl":"https://www.scb.com/app/uploads/2016/11/Wakely1018401R-1600x759.jpg","artworkUrl100":"https://www.scb.com/app/uploads/2016/11/Wakely1018406R-1600x1067.jpg","releaseDate":"2020-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}, 
-   { "artistName":"3 floors", "collectionName":"The Santos Manuel Student Union is excited to announce that the SMSU North first floor is now open to the public. The Coyote Bookstore, game room, social stairs, and lounge spaces are open to the public. The Habit Grill, Coyote Cantina, and Coyote Lanes are open too!", "trackName":"SMSU North",
-   "previewUrl":"https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/NewsSlide_SMSU_ToppingOut_Ceremony_27Feb2020_1.jpg?h=1543e9c9&itok=GJ-OvJDH","artworkUrl100":"https://pbs.twimg.com/media/FMO_Bd2VkAArgKb.jpg:large","releaseDate":"2021-08-28T07:00:00Z", "trackTimeMillis":175813, "primaryGenreName":"K-Pop"}
+        {
+            "floorNum": "2 floors",
+            "Description": "CSUSB’s newest campus residential and dining experiences – Coyote Village and Coyote Commons ",
+            "buildName": "Coyote Commons",
+            "previewUrl": "https://www.scb.com/app/uploads/2016/11/Wakely1018401R-1600x759.jpg",
+            "artworkUrl100": "https://www.scb.com/app/uploads/2016/11/Wakely1018406R-1600x1067.jpg"
+        },
+        {
+            "floorNum": "3 floors",
+            "Description": "The Santos Manuel Student Union is excited to announce that the SMSU North first floor is now open to the public. The Coyote Bookstore, game room, social stairs, and lounge spaces are open to the public. The Habit Grill, Coyote Cantina, and Coyote Lanes are open too!",
+            "buildName": "SMSU North",
+            "previewUrl": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/NewsSlide_SMSU_ToppingOut_Ceremony_27Feb2020_1.jpg?h=1543e9c9&itok=GJ-OvJDH",
+            "artworkUrl100": "https://pbs.twimg.com/media/FMO_Bd2VkAArgKb.jpg:large"
+        }
     ]
 }
-   

@@ -7,9 +7,9 @@
 
 import UIKit
 
-class TracksViewController: UIViewController, UITableViewDataSource {
+class BuildViewController: UIViewController, UITableViewDataSource {
 
-    var tracks: [Track] = []
+    var buildings: [CampusInfo] = []
 
     @IBOutlet weak var tableView: UITableView!
 
@@ -56,7 +56,7 @@ class TracksViewController: UIViewController, UITableViewDataSource {
 
                 // Use the JSON decoder to try and map the data to our custom model.
                 // TrackResponse.self is a reference to the type itself, tells the decoder what to map to.
-                let response = try decoder.decode(TracksResponse.self, from: data)
+                let response = try decoder.decode(CampusResponse.self, from: data)
 
                 // Access the array of tracks from the `results` property
                 let tracks = response.results
@@ -64,7 +64,7 @@ class TracksViewController: UIViewController, UITableViewDataSource {
                 DispatchQueue.main.async {
 
                     // Set the view controller's tracks property as this is the one the table view references
-                    self?.tracks = tracks
+                    self?.buildings = tracks
 
                     // Make the table view reload now that we have new data
                     self?.tableView.reloadData()
@@ -108,28 +108,28 @@ class TracksViewController: UIViewController, UITableViewDataSource {
            let detailViewController = segue.destination as? DetailViewController {
 
             // Use the index path to get the associated track
-            let track = tracks[indexPath.row]
+            let track = buildings[indexPath.row]
 
             // Set the track on the detail view controller
-            detailViewController.track = track
+            detailViewController.campus = track
         }
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tracks.count
+        return buildings.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         // Get a cell with identifier, "TrackCell"
         // the `dequeueReusableCell(withIdentifier:)` method just returns a generic UITableViewCell so it's necessary to cast it to our specific custom cell.
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TrackCell", for: indexPath) as! TrackCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TrackCell", for: indexPath) as! BuildCell
 
-        // Get the track that corresponds to the table view row
-        let track = tracks[indexPath.row]
+        // Get the buildings that corresponds to the table view row
+        let buildings = buildings[indexPath.row]
 
-        // Configure the cell with it's associated track
-        cell.configure(with: track)
+        // Configure the cell with it's associated buildings
+        cell.configure(with: buildings)
 
         // return the cell for display in the table view
         return cell

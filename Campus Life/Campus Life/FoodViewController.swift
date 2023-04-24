@@ -9,17 +9,17 @@ import UIKit
 import Nuke
 
 
-class AlbumsViewController: UIViewController, UICollectionViewDataSource {
+class FoodViewController: UIViewController, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        albums.count
+        Food.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // Get a collection view cell (based in the identifier you set in storyboard) and cast it to our custom AlbumCell
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AlbumCell", for: indexPath) as! AlbumCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AlbumCell", for: indexPath) as! FoodCell
 
             // Use the indexPath.item to index into the albums array to get the corresponding album
-            let album = albums[indexPath.item]
+            let album = Food[indexPath.item]
 
             // Get the artwork image url
             let imageUrl = album.artworkUrl100
@@ -33,7 +33,7 @@ class AlbumsViewController: UIViewController, UICollectionViewDataSource {
     
     
     @IBOutlet weak var collectionView: UICollectionView!
-    var albums: [Album] = []
+    var Food: [Campus] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,11 +85,11 @@ class AlbumsViewController: UIViewController, UICollectionViewDataSource {
             let decoder = JSONDecoder()
             do {
                 // Try to parse the response into our custom model
-                let response = try decoder.decode(AlbumSearchResponse.self, from: data)
-                let albums = response.results
-                print(albums)
+                let response = try decoder.decode(BuildSearchResponse.self, from: data)
+                let foods = response.results
+                print(foods)
                 DispatchQueue.main.async {
-                    self?.albums = albums
+                    self?.Food = foods
                     self?.collectionView.reloadData()
                 }
             } catch {

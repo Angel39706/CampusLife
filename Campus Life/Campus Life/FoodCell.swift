@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AlbumCell: UICollectionViewCell {
+class FoodCell: UICollectionViewCell {
     
     @IBOutlet weak var albumImageView: UIImageView!
     

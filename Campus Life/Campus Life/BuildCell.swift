@@ -8,7 +8,7 @@
 import UIKit
 import Nuke
 
-class TrackCell: UITableViewCell {
+class BuildCell: UITableViewCell {
 
     @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!
@@ -26,9 +26,9 @@ class TrackCell: UITableViewCell {
     }
 
     /// Configures the cell's UI for the given track.
-    func configure(with track: Track) {
-        trackNameLabel.text = track.trackName
-        artistNameLabel.text = track.artistName
+    func configure(with track: CampusInfo) {
+        trackNameLabel.text = track.buildName
+        artistNameLabel.text = track.floorNum
 
         // Load image async via Nuke library image loading helper method
         Nuke.loadImage(with: track.previewUrl, into: trackImageView)

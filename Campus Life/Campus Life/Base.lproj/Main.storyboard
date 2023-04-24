@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IYV-jJ-L84">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IYV-jJ-L84">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tracks View Controller-->
+        <!--Build View Controller-->
         <scene sceneID="ZdN-Oy-zPA">
             <objects>
-                <viewController id="p8a-Bq-2Q1" customClass="TracksViewController" customModule="lab_tunley" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="p8a-Bq-2Q1" customClass="BuildViewController" customModule="Campus_Life" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HTO-FV-gk9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackCell" rowHeight="121" id="REj-i4-M0y" customClass="TrackCell" customModule="lab_tunley" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackCell" rowHeight="121" id="REj-i4-M0y" customClass="BuildCell" customModule="Campus_Life" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="121"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="REj-i4-M0y" id="4EJ-Ec-SMm">
@@ -39,16 +40,16 @@
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6BL-aK-RkY">
-                                                            <rect key="frame" x="116" y="0.0" width="245" height="70"/>
+                                                            <rect key="frame" x="116" y="0.0" width="245" height="56.666666666666664"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhF-kN-jmI">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="33.666666666666664"/>
-                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhF-kN-jmI">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="20.333333333333332"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLACKPINK &amp; Selena Gomez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-h2-Ki7">
-                                                                    <rect key="frame" x="0.0" y="49.666666666666671" width="245" height="20.333333333333329"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-h2-Ki7">
+                                                                    <rect key="frame" x="0.0" y="36.333333333333336" width="245" height="20.333333333333336"/>
                                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -96,16 +97,16 @@
         <!--Detail View Controller-->
         <scene sceneID="1X6-VQ-Dqd">
             <objects>
-                <viewController id="T4G-V3-AV2" customClass="DetailViewController" customModule="lab_tunley" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="T4G-V3-AV2" customClass="DetailViewController" customModule="Campus_Life" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="66p-97-aEo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="CE3-EE-ASl">
-                                <rect key="frame" x="24" y="110.99999999999997" width="345" height="493.33333333333326"/>
+                                <rect key="frame" x="24" y="111" width="345" height="257.33333333333331"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="FJe-2D-GgI">
-                                        <rect key="frame" x="0.0" y="0.0" width="263.33333333333331" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="328" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="npl-r1-2cI">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -114,8 +115,8 @@
                                                     <constraint firstAttribute="width" constant="100" id="irk-5c-jc7"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cream" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAO-3f-DIn">
-                                                <rect key="frame" x="116.00000000000001" y="29.666666666666654" width="147.33333333333337" height="40.666666666666657"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAO-3f-DIn">
+                                                <rect key="frame" x="116" y="29.666666666666654" width="212" height="40.666666666666657"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -123,16 +124,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4Ry-0Z-DfD">
-                                        <rect key="frame" x="0.0" y="124.00000000000001" width="277.66666666666669" height="54.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="124.00000000000001" width="164.66666666666666" height="54.666666666666671"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPB-V8-T3j">
-                                                <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Levels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPB-V8-T3j">
+                                                <rect key="frame" x="0.0" y="0.0" width="50.333333333333336" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLACKPINK &amp; Selena Gomez" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOt-eQ-M3T">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="277.66666666666669" height="26.333333333333329"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Floors" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOt-eQ-M3T">
+                                                <rect key="frame" x="0.0" y="28.333333333333314" width="164.66666666666666" height="26.333333333333329"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -140,67 +141,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P1W-Yu-0gn">
-                                        <rect key="frame" x="0.0" y="202.66666666666669" width="119.66666666666667" height="54.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="202.66666666666669" width="151" height="54.666666666666686"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALBUM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP8-q8-0pL">
-                                                <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP8-q8-0pL">
+                                                <rect key="frame" x="0.0" y="0.0" width="48.333333333333336" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE ALBUM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1n-ad-Utc">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="119.66666666666667" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rpX-cn-EaG">
-                                        <rect key="frame" x="0.0" y="281.33333333333331" width="58.666666666666664" height="54.666666666666686"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENRE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3J-Pc-kyz">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K-Pop" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ku3-BK-9Fc">
-                                                <rect key="frame" x="0.0" y="28.333333333333371" width="58.666666666666664" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="u1A-2N-QCr">
-                                        <rect key="frame" x="0.0" y="360" width="130.33333333333334" height="54.666666666666686"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RELEASE DATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhH-bq-og3">
-                                                <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aug 28, 2020" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs0-9l-VuX">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="130.33333333333334" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WEj-JV-lx5">
-                                        <rect key="frame" x="0.0" y="438.66666666666663" width="86.666666666666671" height="54.666666666666686"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DURATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jap-GA-ONc">
-                                                <rect key="frame" x="0.0" y="0.0" width="86.666666666666671" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:55" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFt-e7-Zbh">
-                                                <rect key="frame" x="0.0" y="28.333333333333371" width="44" height="26.333333333333329"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1n-ad-Utc">
+                                                <rect key="frame" x="0.0" y="28.333333333333314" width="151" height="26.333333333333329"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -221,13 +171,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="0xC-h9-MXy"/>
                     <connections>
-                        <outlet property="albumLabel" destination="N1n-ad-Utc" id="NV6-5d-ApO"/>
-                        <outlet property="artistLabel" destination="QOt-eQ-M3T" id="gSj-of-Xib"/>
-                        <outlet property="durationLabel" destination="kFt-e7-Zbh" id="Gks-GJ-h3c"/>
-                        <outlet property="genreLabel" destination="ku3-BK-9Fc" id="ff5-rR-jze"/>
-                        <outlet property="releaseDateLabel" destination="vs0-9l-VuX" id="jhW-h2-GwN"/>
-                        <outlet property="trackImageView" destination="npl-r1-2cI" id="h99-MK-Tac"/>
-                        <outlet property="trackNameLabel" destination="hAO-3f-DIn" id="HoA-Mc-Gxg"/>
+                        <outlet property="buildImageView" destination="npl-r1-2cI" id="h99-MK-Tac"/>
+                        <outlet property="buildNameLabel" destination="hAO-3f-DIn" id="HoA-Mc-Gxg"/>
+                        <outlet property="descriptionLabel" destination="N1n-ad-Utc" id="NV6-5d-ApO"/>
+                        <outlet property="floorNumLabel" destination="QOt-eQ-M3T" id="gSj-of-Xib"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ttf-d4-Sye" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -272,10 +219,10 @@
             </objects>
             <point key="canvasLocation" x="200.76335877862596" y="3.5211267605633805"/>
         </scene>
-        <!--Albums View Controller-->
+        <!--Food View Controller-->
         <scene sceneID="04X-HT-iyY">
             <objects>
-                <viewController id="v1X-jo-R08" customClass="AlbumsViewController" customModule="lab_tunley" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="v1X-jo-R08" customClass="FoodViewController" customModule="Campus_Life" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IrC-1u-Ha4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,7 +237,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumCell" id="zOO-FL-h71" customClass="AlbumCell" customModule="lab_tunley" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumCell" id="zOO-FL-h71" customClass="FoodCell" customModule="Campus_Life" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="141" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wUl-dL-njM">
