@@ -19,6 +19,7 @@
 		4D9E83FC29F5219400A2E502 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FB29F5219400A2E502 /* TracksViewController.swift */; };
 		4D9E83FE29F5219800A2E502 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FD29F5219800A2E502 /* AlbumsViewController.swift */; };
 		4D9E840029F5219E00A2E502 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E83FF29F5219E00A2E502 /* DetailViewController.swift */; };
+		4DC31D8F29F5FFA300CB70BB /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31D8E29F5FFA300CB70BB /* AlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4D9E83FB29F5219400A2E502 /* TracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
 		4D9E83FD29F5219800A2E502 /* AlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		4D9E83FF29F5219E00A2E502 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4DC31D8E29F5FFA300CB70BB /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				4D9E83FB29F5219400A2E502 /* TracksViewController.swift */,
 				4D9E83FD29F5219800A2E502 /* AlbumsViewController.swift */,
 				4D9E83FF29F5219E00A2E502 /* DetailViewController.swift */,
+				4DC31D8E29F5FFA300CB70BB /* AlbumCell.swift */,
 				0BB9E76E29E4FAAE00DD1A5C /* Main.storyboard */,
 				0BB9E77129E4FAAF00DD1A5C /* Assets.xcassets */,
 				0BB9E77329E4FAAF00DD1A5C /* LaunchScreen.storyboard */,
@@ -175,6 +178,7 @@
 				0BB9E76B29E4FAAE00DD1A5C /* SceneDelegate.swift in Sources */,
 				4D9E83F629F5217800A2E502 /* Track.swift in Sources */,
 				4D9E83FC29F5219400A2E502 /* TracksViewController.swift in Sources */,
+				4DC31D8F29F5FFA300CB70BB /* AlbumCell.swift in Sources */,
 				4D9E83F829F5218000A2E502 /* Album.swift in Sources */,
 				4D9E83FA29F5218D00A2E502 /* TrackCell.swift in Sources */,
 			);
