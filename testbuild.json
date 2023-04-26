@@ -7,8 +7,8 @@
             "buildName": "College of Education",
             "previewUrl": "https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg",
             "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 34.18341780062471,
+            "longitude": -117.3217029404439,
 
    
         },
@@ -18,8 +18,8 @@
             "buildName": "Center for Global Innovation",
             "previewUrl": "https://www.csusb.edu/sites/default/files/CGI_0B4A4725_0.jpg",
             "artworkUrl100": "https://lpa-design-studios.imgix.net/content/heros/CSUSB-Center-for-Global-Innovation13.jpg?auto=format&crop=focalpoint&domain=lpa-design-studios.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=1121&ixlib=php-3.3.0&q=60&w=1920",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 34.18341290064397,
+            "longitude": -117.32315099035026,
         },
         {
             "floorNum": "4 floors",
@@ -27,8 +27,8 @@
             "buildName": "Social & Behavioral Sciences",
             "previewUrl": "https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Front_View.jpg&w=900&h=508&r=1",
             "artworkUrl100": "https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1850&image=1850/SB-Sky_view.jpg&w=900&h=508&r=1",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 0,
+            "longitude": 0,
         },
         {
             "floorNum": "4 floors",
@@ -36,8 +36,8 @@
             "buildName": "John M. Pfau Library",
             "previewUrl": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/CSUSB-NewsSlide-WildSong_Library_2.jpg?h=4eaa70d8&itok=q4X2xYl6",
             "artworkUrl100": "https://www.csusb.edu/sites/default/files/upload/file/NewsSlide_PfauLibrary_04Sept2020.jpg",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 0,
+            "longitude": 0,
         },
         {
             "floorNum": "5 floors",
@@ -45,8 +45,8 @@
             "buildName": "University Hall",
             "previewUrl": "https://www.csusb.edu/sites/default/files/upload/image/uhall.png",
             "artworkUrl100": "https://www.csusb.edu/sites/default/files/upload/image/uhall.png",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 0,
+            "longitude": 0,
         },
         {
             "floorNum": "3 floors",
@@ -54,8 +54,8 @@
             "buildName": "College of Education",
             "previewUrl": "https://www.calstate.edu/impact-of-the-csu/teacher-education/PublishingImages/campuses/te-sanbernardino.jpg",
             "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/_NewsSlide_COE_CTC_reaccreditation_18June2018_0.jpg?itok=-tvZq4XU",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 0,
+            "longitude": 0,
         },
         {
             "floorNum": "4 floors",
@@ -63,8 +63,8 @@
             "buildName": "Physical Sciences",
             "previewUrl": "https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS",
             "artworkUrl100": "https://tbpenick.com/sites/default/files/styles/project_large/public/project/images/signage.jpg?itok=HuUPADnS",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 34.1834846088804,
+            "longitude": -117.32168776262326,
         },
         {
             "floorNum": "3 floors",
@@ -72,8 +72,8 @@
             "buildName": "Jack Brown Hall",
             "previewUrl": "https://www.csusb.edu/sites/default/files/jackbrownhall.jpg",
             "artworkUrl100": "https://www.csusb.edu/sites/default/files/styles/interior_slideshow/public/upload/image/CSUSB_JHB_SchoolOfBusiness.jpg?itok=NcihTxAt",
-            "latitude": "34.1834846088804",
-            "longitude": "-117.32168776262326",
+            "latitude": 34.1834846088804,
+            "longitude": -117.32168776262326,
         }
     ]
 }
