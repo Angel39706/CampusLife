@@ -58,18 +58,17 @@ Users are able to navigate to classrooms throughtout their campus.Providing the 
     * => Detail view of Selected place to eat with an image
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-![](https://github.com/Angel39706/CampusLife/blob/main/CampusLife.gif)
+![](https://github.com/Angel39706/CampusLife/blob/main/ReadMEImages/Screenshot%202023-05-01%20at%208.35.47%20PM.png)
 
 ### [BONUS] Digital Wireframes & Mockups
+![](https://github.com/Angel39706/CampusLife/blob/main/ReadMEImages/Screenshot%202023-05-01%20at%208.37.43%20PM.png)
+![](https://github.com/Angel39706/CampusLife/blob/main/ReadMEImages/Screenshot%202023-05-01%20at%208.38.12%20PM.png)
+![](https://github.com/Angel39706/CampusLife/blob/main/ReadMEImages/Screenshot%202023-05-01%20at%208.38.41%20PM.png)
 
 ### [BONUS] Interactive Prototype
+![](https://github.com/Angel39706/CampusLife/blob/main/CampusLife.gif)
 
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- API Campus Building CSUSB : https://github.com/Angel39706/CampusLife/blob/main/csusbbuildings.json
+- API On-Campus Eatery CSUSB : https://github.com/Angel39706/CampusLife/blob/main/csusbeats.json
+
