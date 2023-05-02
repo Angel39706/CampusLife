@@ -59,7 +59,7 @@ Users are able to navigate to classrooms throughtout their campus.Providing the 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![](https://github.com/Angel39706/CampusLife/blob/main/CampusLife.gif)
 
 ### [BONUS] Digital Wireframes & Mockups
 
